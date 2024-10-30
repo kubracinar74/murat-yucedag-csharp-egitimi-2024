@@ -49,5 +49,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\01_MainSubjectTekrar\01_MainSubjectTekrar.csproj">
+      <Project>{761d355a-89ef-4995-8f4c-987707dc022d}</Project>
+      <Name>01_MainSubjectTekrar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\02_Variables\02_Variables.csproj">
+      <Project>{631eb02c-93d5-49eb-894e-a673915fd83a}</Project>
+      <Name>02_Variables</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03_Making_Desicion\03_Making_Desicion.csproj">
+      <Project>{c99b69c2-9510-4d41-9665-e15dab48347b}</Project>
+      <Name>03_Making_Desicion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04_Loops\04_Loops.csproj">
+      <Project>{9e96ced0-6473-432c-8bce-407c36fcd495}</Project>
+      <Name>04_Loops</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
