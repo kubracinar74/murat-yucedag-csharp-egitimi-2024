@@ -50,7 +50,7 @@ namespace _01_MainSubjects
             //int number = 5;
             //Console.WriteLine(number);
 
-            int hamburgerPrice = 300;
+            int hamburgerPrice = 400;
             int cokePrice = 10;
             int waterPrice = 50;
             int friesPrice = 50;
