@@ -1,4 +1,6 @@
-﻿namespace _01_MainSubjects
+﻿using System;
+
+namespace _01_MainSubjects
 {
     internal class Program
     {
